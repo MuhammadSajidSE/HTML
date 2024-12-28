@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food order</title>
+</head>
+
+<body>
+    <h1>Zara Hatka resturant</h1>
+    <h3>Customer Detail</h3>
+    <form action="sajid.php">
+        <label for="custname">name</label>
+        <input type="text" name="custname" id="custname">
+        <br>
+        <br>
+        <label for="custage">age</label>
+        <input type="number" name="custage" id="">
+        <br>
+        <br>
+        Gender
+        <br>
+        male <input type="radio" name="custgen">
+        female <input type="radio" name="custgen">
+        <br>
+        <br>
+        <label for="custno">phone no</label>
+        <input type="text" name="phone no" id="custno">
+        <br>
+        <br>
+        <label for="custmail">email</label>
+        <input type="email" name="custeamil" id="custmail">
+        <br>
+        <br>
+        <label for="todate">Date</label>
+        <input type="date" name="todate" id="todate">
+        <h4>Foods detail</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>Price</th>
+                    <th>discount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Biryani</td>
+                    <td>250</td>
+                    <td>7%</td>
+                </tr>
+                <tr>
+                    <td>Karhai</td>
+                    <td>550</td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>Burgar</td>
+                    <td>150</td>
+                    <td>2%</td>
+                </tr>
+            </tbody>
+        </table>
+        <ol type="1">
+            <li>briyani</li>
+            <ul type="circle">
+                <li>2 boti chiken</li>
+                <li>1 pice alo</li>
+                <li>80gm chawal</li>
+                <li>thora sa salat</li>
+            </ul>
+            <li>Karhai</li>
+            <ul type="circle">
+                <li>dasi ghi </li>
+                <li>koila karhai</li>
+                <li>250 gm ghost</li>
+                <li>shan masala</li>
+            </ul>
+            <li>Burger</li>
+            <ul type="circle">
+                <li>Zinger</li>
+                <li>anda wala</li>
+                <li>unlimited catchup</li>
+                <li>not call more chatni</li>
+
+            </ul>
+        </ol>
+        <h4>select item</h4>
+        Biryani<input type="radio" name="biryani">
+        <br>
+        <ul>
+            chiken <input type="radio" name="meet">
+            Beaf <input type="radio" name="meet">
+        </ul>
+        <ul>
+            price
+            250 <input type="radio" name="price">
+            350 <input type="radio" name="price">
+        </ul>
+        Karhai<input type="radio" name="biryani">
+        <br>
+        <ul>
+            chiken <input type="radio" name="karhai">
+            Beaf <input type="radio" name="karhai">
+        </ul>
+        <ul>
+            price
+            550 <input type="radio" name="karprice">
+            750 <input type="radio" name="karprice">
+        </ul>
+        Burger<input type="radio" name="biryani">
+        <br>
+        <ul>
+            Zinger <input type="radio" name="karhai">
+            Anda wal <input type="radio" name="karhai">
+        </ul>
+        <ul>
+            price
+            250 <input type="radio" name="karprice">
+            350 <input type="radio" name="karprice">
+        </ul>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <textarea name="feebback" id="" cols="30" rows="10"><br></textarea>
+        <br>
+        <br>
+        <label for="Payment">Payment
+            <select name="pay" id="payment">
+                <option value="credit">credit</option>
+                <option value="online">online</option>
+                <option value="cash">cash</option>
+            </select>
+        </label>
+    </form>
+</body>
+</html>
